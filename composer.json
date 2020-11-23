@@ -1,0 +1,29 @@
+{
+  "name": "cjp2600/glow",
+  "description": "Simple http request linker for roadrunner service.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stanislav Semenov",
+      "email": "icjp2600@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "0.9.*",
+    "phpunit/phpunit": "4.*",
+    "spiral/goridge": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Glow\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
