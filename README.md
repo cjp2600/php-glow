@@ -1,5 +1,8 @@
 # GLOW CLIENT
-Simple http request linker for **roadrunner** service.
+
+Simple http request Orchestrate for RoadRunner.
+
+### Roadrunner service [roadrunner-glow](https://github.com/cjp2600/roadrunner-glow)
 
 ## Example
 ```php
